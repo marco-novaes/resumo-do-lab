@@ -105,3 +105,44 @@ A **redundância** define como os dados são replicados para garantir alta dispo
 ⚠️ **Importante:** Sempre verifique os **requisitos do projeto antes de aplicar uma solução**. Redundância e disponibilidade mais alta trazem custos adicionais na nuvem.
 
 ---
+
+## ⚙️ Configurações de Máquina Virtual e Banco de Dados no Azure
+
+### 💻 Imagem e Tamanho (Pay-as-you-go)
+
+- Quando a configuração está como **Pay-as-you-go**, tudo o que for criado será de **responsabilidade do usuário**.
+- É possível **adicionar discos** além dos que já vêm por padrão.
+
+---
+
+### 🌐 Rede
+
+- Na seção de rede, é possível configurar **se a máquina estará exposta ou não à internet**.
+
+---
+
+### 🛠️ Gerenciamento
+
+- Nessa etapa, já se configura como será o ambiente de **produção**, incluindo monitoramento, identidade, backup e outras opções relacionadas.
+
+---
+
+## 🗄️ Criação de Banco de Dados SQL
+
+### 📍 Detalhes do Servidor
+
+- Definir o **nome do servidor** e a **localização**.
+- Escolher o tipo de **autenticação**: SQL ou Microsoft.
+- Selecionar o **modelo de redundância do armazenamento de backup**, lembrando de considerar o **SLA (Acordo de Nível de Serviço)**.
+
+---
+
+### 💰 Estimativa de Custo
+
+- Após preencher todas as configurações, o portal exibe o **custo mensal estimado** da solução.
+
+---
+
+### 📝 Observação
+
+- Todo o **gerenciamento** está diretamente ligado ao **modelo de serviço** escolhido.
